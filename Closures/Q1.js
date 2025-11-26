@@ -7,6 +7,9 @@
 // 👉 Higher-Order Function bhi hai
 // (kyunki ek function dusra function return kar raha hai)
 
+// Write a function createHelloWorld. It should return a new function that always returns "Hello World".
+
+
 function createHelloWorld() {
   return function () {
     return 'hello world';
