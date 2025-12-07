@@ -10,6 +10,6 @@ async function sleep(millis) {
   });
 }
 
-sleep().then((data) => {
+sleep(3000).then((data) => {
   console.log(data);
 });
